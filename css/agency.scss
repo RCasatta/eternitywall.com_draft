@@ -181,14 +181,14 @@ header {
         padding-top: 100px;
         padding-bottom: 50px;
         .intro-lead-in {
-            @include serif-font;
+            @include ew-font;
             font-style: italic;
             font-size: 22px;
             line-height: 22px;
             margin-bottom: 25px;
         }
         .intro-heading {
-            @include heading-font;
+            @include ew-font;
             font-weight: 700;
             font-size: 50px;
             line-height: 50px;
@@ -203,14 +203,14 @@ header {
             padding-top: 300px;
             padding-bottom: 200px;
             .intro-lead-in {
-                @include serif-font;
+                @include ew-font;
                 font-style: italic;
                 font-size: 40px;
                 line-height: 40px;
                 margin-bottom: 25px;
             }
             .intro-heading {
-                @include heading-font;
+                @include ew-font;
                 font-weight: 700;
                 font-size: 75px;
                 line-height: 75px;
