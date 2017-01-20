@@ -237,6 +237,13 @@ section {
         font-weight: 400;
         margin-bottom: 75px;
     }
+    h3.section-subheading-with-content {
+        font-size: 16px;
+        @include serif-font;
+        text-transform: none;
+        font-style: italic;
+        font-weight: 400;
+    }
 }
 
 @media(min-width:768px) {
