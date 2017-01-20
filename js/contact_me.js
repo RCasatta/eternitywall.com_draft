@@ -20,7 +20,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "https://formspree.io/info@eternitywall.it",
+                url: "https://formspree.io/info@eternitywall.com",
                 type: "POST",
                 data: {
                     name: name,
